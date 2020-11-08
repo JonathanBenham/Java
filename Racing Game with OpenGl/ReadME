@@ -1,0 +1,11 @@
+We implemented the application in a different way than suggested :
+The car translation was apply to the track instead of the car.
+Therefore it implied that we  didn't have to translate the camera,
+and the spotlight.
+For the car collision implementation, we applied a translation to the car spheres
+only and checked if there is a collision.
+As mentioned in the Homework, there is still a bit error, due to the bounding sphere
+accuracy.
+For the other distances, we didn't choose some accurate distances from the camera to the
+car.
+In the whole implementation, we improved one by one the translation to get the best result possible.
